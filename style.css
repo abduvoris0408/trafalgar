@@ -1,0 +1,477 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1220px;
+    width: 100%;
+    margin: 146px auto 0px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    gap: 84px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-nav {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-item {
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22.59px;
+    text-align: left;
+    cursor: pointer;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    gap: 109px;
+}
+
+.header-text {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 33px;
+}
+
+.header-text h1 {
+    font-family: Mulish;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.header-text p {
+    font-family: Mulish;
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 32px;
+    text-align: left;
+}
+
+.btn {
+    margin-top: 45px;
+    width: 200px;
+    height: 56px;
+    top: 654px;
+    left: 240px;
+    border-radius: 55px;
+    background: #458ff6;
+    color: #ffffff;
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    border: none;
+}
+.cards {
+    margin-top: 80px;
+    display: flex;
+    width: 1120px;
+    height: 745px;
+    gap: 34px;
+    flex-flow: row wrap;
+}
+.card {
+    width: 350px;
+    height: 354px;
+    border-radius: 20px;
+    box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.4);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 21px;
+    padding: 37px;
+}
+.card img {
+    width: 91px;
+    height: 90px;
+}
+.card h3 {
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 56px;
+    text-align: left;
+}
+.card p {
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    text-align: left;
+}
+.page {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 80px;
+}
+.name {
+    display: flex;
+    flex-direction: column;
+    width: 952px;
+    height: 60px;
+    align-items: center;
+    gap: 26px;
+}
+.name h2 {
+    font-family: Mulish;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 56px;
+    text-align: left;
+}
+.name p {
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: center;
+}
+span {
+    width: 56px;
+    height: 2px;
+    background-color: #000000;
+    border-radius: 5px;
+    color: white;
+}
+.pagebtn {
+    width: 200px;
+    height: 60px;
+    border-radius: 55px;
+    border: 1.4px solid rgba(69, 143, 246, 1);
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: center;
+    color: rgba(69, 143, 246, 1);
+    background-color: #ffffff;
+    cursor: pointer;
+}
+.btncare {
+    width: 200px;
+    height: 60px;
+    border-radius: 55px;
+    border: 1.4px solid rgba(69, 143, 246, 1);
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: center;
+    color: rgba(69, 143, 246, 1);
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+.care {
+    width: 1273px;
+    height: 477px;
+    margin-top: 220px;
+    display: flex;
+    align-items: center;
+    gap: 109px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 33px;
+}
+
+.text h1 {
+    font-family: Mulish;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.text p {
+    font-family: Mulish;
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 32px;
+    text-align: left;
+}
+
+.btndownload {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: 200px;
+    height: 60px;
+    border-radius: 55px;
+    border: 1.4px solid rgba(69, 143, 246, 1);
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: center;
+    color: rgba(69, 143, 246, 1);
+    background-color: #ffffff;
+    cursor: pointer;
+}
+.appsimg {
+    width: 665px;
+    height: 434px;
+}
+.apps {
+    margin-top: 265px;
+    display: flex;
+    align-items: center;
+    gap: 109px;
+}
+
+.downloadtext {
+    width: 420px;
+    height: 375px;
+
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 33px;
+}
+
+.downloadtext h1 {
+    font-family: Mulish;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.downloadtext p {
+    font-family: Mulish;
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 32px;
+    text-align: left;
+}
+.customer {
+    padding: 64px 89px 118px 118px;
+    margin-top: 251px;
+    /* width: 1120px;
+    height: 425px; */
+    border-radius: 25px;
+    background: linear-gradient(208.18deg, #67c3f3 9.05%, #5a98f2 76.74%);
+    color: white;
+}
+.slide {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-direction: column;
+}
+.slide1 {
+    display: flex;
+    flex-flow: flex-flow;
+    align-items: center;
+    gap: 30px;
+}
+.paragraph {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    flex-direction: column;
+}
+.paragraph h2 {
+    font-family: Mulish;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+}
+.paragraph span {
+    width: 56px;
+    height: 2px;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+.testimonial {
+    margin-top: 50px;
+    display: flex;
+    gap: 29px;
+    align-items: center;
+    flex-flow: flex-flow;
+}
+.testimonial h4 {
+    font-family: Mulish;
+    font-size: 22px;
+    font-weight: 700;
+    /* line-height: 48px; */
+    text-align: left;
+}
+.hh4 {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 10px;
+}
+.testimonial p {
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.testimonial img {
+    width: 141px;
+    height: 141px;
+}
+.feedback {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    font-family: Mulish;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+}
+
+.sliderimg {
+    margin-top: 42px;
+}
+.articlecards {
+    display: flex;
+    flex-flow: flex-flow;
+}
+.textarticle {
+    margin-top: 222px;
+    font-family: Mulish;
+    font-size: 30px;
+    font-weight: 700;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+.article {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    align-items: center;
+}
+.articlecards {
+    display: flex;
+    gap: 35px;
+}
+.articlecard {
+    width: 350px;
+    height: 512px;
+    border-radius: 20px;
+    box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.4);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 21px;
+}
+.articlecard img {
+    width: 350px;
+    height: 240px;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+}
+h4 {
+    font-family: Mulish;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: left;
+    margin-left: 25px;
+}
+.articlecard p {
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    text-align: left;
+    margin-left: 25px;
+}
+.foter {
+    display: flex;
+    flex-flow: flex-flow;
+    align-items: center;
+    gap: 145px;
+    padding: 100px 40px;
+    color: white;
+    margin: 0px auto;
+    max-width: 1220px;
+}
+.foter1 {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 25px;
+}
+.foter1 p {
+    width: 391px;
+    height: 201px;
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 300;
+    /* line-height: 28px; */
+    text-align: left;
+}
+.foter1 img {
+    width: 160px;
+    height: 41px;
+    margin-top: 20px;
+}
+.foter2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    height: 214px;
+}
+.foter2 ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: left;
+    list-style: none;
+}
+.foter-item {
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 38px;
+    text-align: left;
+    cursor: pointer;
+}
+footer {
+    margin-top: 150px;
+    width: 100%;
+    background: linear-gradient(183.41deg, #67c3f3 -8.57%, #5a98f2 82.96%);
+}
+button {
+    width: 160px;
+    height: 30px;
+    background-color: #47b3ed;
+    color: white;
+    border: solid #47b3ed;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-left: 25px;
+}
